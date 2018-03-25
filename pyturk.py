@@ -25,8 +25,8 @@ class __Fonk__():
 		return dict(nesneler)
 	def liste(*nesneler):
 		return list(nesneler)
-def demet(*nesneler):
-	return tuple(nesneler)
+	def demet(*nesneler):
+		return tuple(nesneler)
 class Sistem(object):
 	def __init__(self):
 		pass
